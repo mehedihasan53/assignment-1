@@ -1,0 +1,107 @@
+/* Font */
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+/* header-saction */
+.header-bg {
+    background-image: url('../Assets/Hero-bg.png');
+    padding: 5px 0px 150px 0px;
+
+}
+
+/* nav-logo */
+.logo {
+    font-size: 34px;
+    font-weight:900;
+    color: #4E47FF;
+
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px 150px 150px;
+}
+
+.nav-content-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.nav-content {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 260px 143px 260px;
+}
+
+
+/* button-section */
+.btg-section {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
+.nav-btg {
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/* main-section */
+.color-bg{
+    background-color: #F5F8FF;
+}
+.webflow-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 160px 116px 141px;
+}
+.see-box{
+    margin: 62px 220px 62px 0px;
+}
+
+.subtitle{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.size{
+    font-size: 20px;
+    color: #252432;
+    font-weight: 50%;
+    margin-bottom: 23px;
+}
+.web-img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+/* joined user */
+.user{
+    display: flex;
+    justify-content: space-around;
+}
