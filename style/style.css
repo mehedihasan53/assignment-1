@@ -1,5 +1,4 @@
-/* Font */
-
+/* Font section */
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -12,15 +11,16 @@
     font-style: normal;
 }
 
+/* Header section starts */
 
-/* header-saction */
 .header-bg {
     margin-top: 0px;
     background-image: url('../Assets/Hero-bg.png');
     padding: 0px 0px 50px 0px;
 }
 
-/* nav-logo */
+/* Navigation logo and button */
+
 .logo {
     font-size: 34px;
     font-weight: 900;
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px 150px 50px;
+    margin: 0px 150px 150px 50px;
 }
 
 .nav-content-title {
@@ -50,8 +50,8 @@
     margin: 0px 260px 143px 260px;
 }
 
+/* Button section */
 
-/* button-section */
 .btg-section {
     font-size: 16px;
     font-weight: bold;
@@ -72,7 +72,8 @@ button:hover {
     color: #fff;
 }
 
-/* main-section */
+/* Main content section */
+
 .color-bg {
     background-color: #F5F8FF;
 }
@@ -108,11 +109,11 @@ button:hover {
     height: 328px;
 }
 
-/* joined user */
+/* Joined user section */
 
 .users-section {
     background-color: rgba(78, 71, 255, 0.1);
-    margin: 116px 159px 137px 141px;
+    margin: 0px auto;
     padding: 50px 40px;
     text-align: center;
     border-radius: 24px;
@@ -125,7 +126,6 @@ button:hover {
     flex-wrap: wrap;
     gap: 150px;
     margin-top: 50px;
-    ;
 }
 
 .user-subtitle {
@@ -133,7 +133,6 @@ button:hover {
     font-weight: 800px;
     margin-top: 0px;
     color: #252432;
-
 }
 
 .user-title {
@@ -141,7 +140,6 @@ button:hover {
     font-weight: 800px;
     color: #4E47FF;
     margin: 0;
-
 }
 
 .user-description {
@@ -149,10 +147,9 @@ button:hover {
     color: #252432;
     font-weight: 50%;
     margin: 0px;
-
 }
 
-/* What our users say-style */
+/* Review section - What our users say */
 
 .review-head-title {
     font-size: 42px;
@@ -162,7 +159,9 @@ button:hover {
     margin: 137px 0 50px 0;
 }
 
-/* review-card */
+
+/* Review cards */
+
 .review-box {
     display: flex;
     background-color: #FAFCFF;
@@ -174,7 +173,6 @@ button:hover {
     text-align: left;
     box-shadow: 0px 6px 20px 0px #F2EDED;
     border-radius: 14px;
-
 }
 
 .review-items {
@@ -210,7 +208,6 @@ button:hover {
     width: 40px;
     height: 40px;
     border-radius: 999px;
-
 }
 
 .review-name-color {
@@ -222,7 +219,9 @@ button:hover {
     color: #B3B3B3;
 }
 
-/* Ready to focus better */
+
+/* Focus section */
+
 .focus {
     background-color: #FFFFFF;
     margin: 137px 150px 150px 92px;
@@ -252,7 +251,8 @@ button:hover {
     border-radius: 48px;
 }
 
-/* contact-section */
+
+/* Contact section */
 
 .contact-section {
     display: flex;
@@ -260,7 +260,6 @@ button:hover {
     padding: 0px 150px 150px 104px;
     gap: 100px;
     align-items: center;
-
 }
 
 .area {
@@ -305,10 +304,11 @@ button:hover {
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
-
 }
 
-/* footer */
+
+/* Footer section */
+
 footer {
     background-color: #FFFFFF;
     padding: 104px 455px;
@@ -333,7 +333,7 @@ footer ul a {
     font-weight: 900px;
     color: #4E47FF;
     margin: 0px 0px 8px 0px;
-    text-align: center
+    text-align: center;
 }
 
 .footer-description {
